@@ -1,12 +1,44 @@
 {
   "name": "modular-express-starter",
   "version": "1.0.0",
-  "description": "Modular Node.js backend starter with Express, TypeScript, Prisma, and PostgreSQL. Feature-based, ready-to-use architecture for fast coding. Understand the structure at a glance and start building immediately. Docker included",
-  "main": "index.js",
+  "description": "Modular Node.js backend starter with Express, TypeScript, Prisma, and PostgreSQL.",
+  "type": "module",
+  "main": "dist/server.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+
+  "keywords": [
+    "nodejs",
+    "express",
+    "typescript",
+    "backend",
+    "starter",
+    "boilerplate",
+    "modular-architecture"
+  ],
+
+  "author": "Mehdi Zayani",
+  "license": "MIT",
+
+  "engines": {
+    "node": ">=18"
+  },
+
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  },
+
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.2.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
 }
