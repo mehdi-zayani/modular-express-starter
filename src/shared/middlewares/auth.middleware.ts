@@ -1,11 +1,8 @@
 import type { Request, Response, NextFunction } from 'express';
+
 import { AppError } from '../errors/index.js';
 
-export const authMiddleware = (
-  req: Request,
-  res: Response,
-  next: NextFunction
-) => {
+export const authMiddleware = (req: Request, res: Response, next: NextFunction) => {
   try {
     // Placeholder auth logic
     // Example: check if req.headers.authorization exists

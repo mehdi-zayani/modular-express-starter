@@ -1,11 +1,11 @@
-import express from "express";
-import cors from "cors";
+import express from 'express';
+import cors from 'cors';
 import dotenv from 'dotenv';
-import { authRoutes } from "./modules/auth/index.js";
-import { usersRoutes } from "./modules/users/index.js";
-import { adminRoutes } from "./modules/admin/index.js";
-import { systemRoutes } from "./modules/system/index.js";
 
+import { authRoutes } from './modules/auth/index.js';
+import { usersRoutes } from './modules/users/index.js';
+import { adminRoutes } from './modules/admin/index.js';
+import { systemRoutes } from './modules/system/index.js';
 import { errorMiddleware, authMiddleware } from './shared/middlewares/index.js';
 
 dotenv.config();
