@@ -20,14 +20,14 @@ Designed for developers who want a clean, scalable structure and to start coding
 
 ## About
 
-`Modular Express Starter` provides a **feature-based project structure** for Node.js backends:  
+`Modular Express Starter` provides a **feature-based project structure** for Node.js backends:
 
-- **Modules** separated by feature (auth, users, admin, system…)  
-- **Controllers, services, and routes** clearly organized  
-- **Global middlewares** for auth and error handling  
-- **Docker setup** for PostgreSQL  
-- **TypeScript ready** with strict type checking  
-- **Prisma ORM integration**  
+- **Modules** separated by feature (auth, users, admin, system…)
+- **Controllers, services, and routes** clearly organized
+- **Global middlewares** for auth and error handling
+- **Docker setup** for PostgreSQL
+- **TypeScript ready** with strict type checking
+- **Prisma ORM integration**
 
 It’s ideal for developers who want a professional boilerplate that is easy to understand and extend.
 
@@ -35,27 +35,29 @@ It’s ideal for developers who want a professional boilerplate that is easy to 
 
 ## Features (Coming Soon)
 
-- Modular, feature-based architecture  
-- TypeScript support  
-- Prisma ORM integration  
-- PostgreSQL database setup  
-- Dockerized environment  
-- Seed scripts for initial data  
-- CI/CD pipelines with GitHub Actions  
-- ESLint & Prettier configuration  
-- Basic logger & error handling setup  
+- Modular, feature-based architecture
+- TypeScript support
+- Prisma ORM integration
+- PostgreSQL database setup
+- Dockerized environment
+- Seed scripts for initial data
+- CI/CD pipelines with GitHub Actions
+- ESLint & Prettier configuration
+- Basic logger & error handling setup
 
 ---
 
 ## Quick Start
 
-1. Clone the repository:  
+1. Clone the repository:
+
 ```bash
 git clone https://github.com/Mehdi-Salim-Zayani/modular-express-starter.git
 cd modular-express-starter
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
@@ -65,11 +67,13 @@ npm install
 - Copy .env.example to .env and adjust as needed.
 
 4. Start the development server:
+
 ```bash
 npm run dev
 ```
 
 5. Build for production:
+
 ```bash
 npm run build
 npm start
